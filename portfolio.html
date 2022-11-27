@@ -18,7 +18,6 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
   <link rel="stylesheet" href="./css/main.min.css">
-  <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
@@ -28,24 +27,24 @@
         Web<span class="logo__studio-header">Studio</span>
       </a>
       <nav class="nav">
-        <ul class="nav__list list">
-          <li><a class="nav__link link" href="./index.html">Студія</a></li>
+        <ul class="nav__list">
+          <li><a class="nav__link" href="./index.html">Студія</a></li>
           <li>
-            <a class="nav__link nav__link--current link" href="./portfolio.html">Портфоліо</a>
+            <a class="nav__link nav__link--current" href="./portfolio.html">Портфоліо</a>
           </li>
-          <li><a class="nav__link link" href="">Контакти</a></li>
+          <li><a class="nav__link" href="">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="contacts list">
+      <ul class="contacts">
         <li>
-          <a class="contacts__link link" href="mailto:info@devstudio.com">
+          <a class="contacts__link" href="mailto:info@devstudio.com">
             <svg class="contacts__icon" width="16" height="12">
               <use href="./images/icons.svg#envelope"></use>
             </svg>
             info@devstudio.com</a>
         </li>
         <li>
-          <a class="contacts__link link" href="tel:+380961111111">
+          <a class="contacts__link" href="tel:+380961111111">
             <svg class="contacts__icon" width="10" height="16">
               <use href="./images/icons.svg#smartphone"></use>
             </svg>
@@ -59,7 +58,7 @@
     <section class="section">
       <div class="container">
         <h1 class="visually-hidden">Список робіт</h1>
-        <ul class="filters__list list">
+        <ul class="filters__list">
           <li class="filters__item">
             <button type="button" class="filters__btn">Усі</button>
           </li>
@@ -77,9 +76,9 @@
           </li>
         </ul>
 
-        <ul class="projects__list list">
+        <ul class="projects__list">
           <li class="projects__item">
-            <a class="projects__link link" href="">
+            <a class="projects__link" href="">
               <div class="projects__thumb">
                 <img src="./images/proj1.jpg" alt="Три людини на екрані ноутбука" width="370" height="294" />
                 <div class="projects__overlay">
@@ -98,7 +97,7 @@
             </a>
           </li>
           <li class="projects__item">
-            <a class="projects__link link" href="">
+            <a class="projects__link" href="">
               <div class="projects__thumb">
                 <img src="./images/proj2.jpg" alt="Два баскетболіста" width="370" height="294" />
                 <div class="projects__overlay">
@@ -119,7 +118,7 @@
             </a>
           </li>
           <li class="projects__item">
-            <a class="projects__link link" href="">
+            <a class="projects__link" href="">
               <div class="projects__thumb">
                 <img src="./images/proj3.jpg" alt="Логотип ресторану морської кухні" width="370" height="294" />
                 <div class="projects__overlay">
@@ -140,7 +139,7 @@
             </a>
           </li>
           <li class="projects__item">
-            <a class="projects__link link" href="">
+            <a class="projects__link" href="">
               <div class="projects__thumb">
                 <img src="./images/proj4.jpg" alt="Навушники" width="370" height="294" />
                 <div class="projects__overlay">
@@ -161,7 +160,7 @@
             </a>
           </li>
           <li class="projects__item">
-            <a class="projects__link link" href="">
+            <a class="projects__link" href="">
               <div class="projects__thumb">
                 <img src="./images/proj5.jpg" alt="Дві коробки" width="370" height="294" />
                 <div class="projects__overlay">
@@ -182,7 +181,7 @@
             </a>
           </li>
           <li class="projects__item">
-            <a class="projects__link link" href="">
+            <a class="projects__link" href="">
               <div class="projects__thumb">
                 <img src="./images/proj6.jpg" alt="Сайт проекту на моніторі" width="370" height="294" />
                 <div class="projects__overlay">
@@ -203,7 +202,7 @@
             </a>
           </li>
           <li class="projects__item">
-            <a class="projects__link link" href="">
+            <a class="projects__link" href="">
               <div class="projects__thumb">
                 <img src="./images/proj7.jpg" alt="Розкладка журналу" width="370" height="294" />
                 <div class="projects__overlay">
@@ -224,7 +223,7 @@
             </a>
           </li>
           <li class="projects__item">
-            <a class="projects__link link" href="">
+            <a class="projects__link" href="">
               <div class="projects__thumb">
                 <img src="./images/proj8.jpg" alt="Логотип на бірці" width="370" height="294" />
                 <div class="projects__overlay">
@@ -245,7 +244,7 @@
             </a>
           </li>
           <li class="projects__item">
-            <a class="projects__link link" href="">
+            <a class="projects__link" href="">
               <div class="projects__thumb">
                 <img src="./images/proj9.jpg" alt="Руки та ноутбук" width="370" height="294" />
                 <div class="projects__overlay">
@@ -270,54 +269,54 @@
 
   <footer class="footer">
     <div class="container">
-      <div class="footer-contacts">
+      <div class="footer__contacts">
         <a class="logo" lang="en" href="./index.html">
           Web<span class="logo__studio-footer">Studio</span></a>
         <address class="address">
-          <a class="link" href="https://goo.gl/maps/7sUeBpfC4185EdPBA" target="_blank"
+          <a class="address__link" href="https://goo.gl/maps/7sUeBpfC4185EdPBA" target="_blank"
             rel="noopener noreferrer nofollow">
             м. Київ, пр-т Лесі Українки, 26
           </a>
         </address>
-        <ul class="footer-contacts list">
-          <li class="item">
-            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <ul class="contacts">
+          <li class="contacts__item">
+            <a class="contacts__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li class="item">
-            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+          <li class="contacts__item">
+            <a class="contacts__link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
 
-      <div class="footer-social">
-        <p class="footer-title">Приєднуйтесь</p>
-        <ul class="footer-socials list">
-          <li class="footer-social-item">
-            <a class="socials__link link" href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+      <div class="footer__social">
+        <p class="footer__title">Приєднуйтесь</p>
+        <ul class="socials">
+          <li class="socials__item">
+            <a class="socials__link" href="https://instagram.com" target="_blank" rel="noopener noreferrer"
               aria-label="Instagram icon">
               <svg class="socials__icon" width="20" height="20">
                 <use href="./images/icons.svg#instagram"></use>
               </svg>
             </a>
           </li>
-          <li class="footer-social-item">
-            <a class="socials__link link" href="https://twitter.com" aria-label="Twitter icon" target="_blank"
+          <li class="socials__item">
+            <a class="socials__link" href="https://twitter.com" aria-label="Twitter icon" target="_blank"
               rel="noopener noreferrer">
               <svg class="socials__icon" width="20" height="20">
                 <use href="./images/icons.svg#twitter"></use>
               </svg>
             </a>
           </li>
-          <li class="footer-social-item">
-            <a class="socials__link link" href="https://facebook.com" aria-label="Facebook icon" target="_blank"
+          <li class="socials__item">
+            <a class="socials__link" href="https://facebook.com" aria-label="Facebook icon" target="_blank"
               rel="noopener noreferrer">
               <svg class="socials__icon" width="20" height="20">
                 <use href="./images/icons.svg#facebook"></use>
               </svg>
             </a>
           </li>
-          <li class="footer-social-item">
-            <a class="socials__link link" href="https://linkedin.com" aria-label="LinkedIn icon" target="_blank"
+          <li class="socials__item">
+            <a class="socials__link" href="https://linkedin.com" aria-label="LinkedIn icon" target="_blank"
               rel="noopener noreferrer">
               <svg class="socials__icon" width="20" height="20">
                 <use href="./images/icons.svg#linkedin"></use>
@@ -327,11 +326,11 @@
         </ul>
       </div>
 
-      <div class="footer-subscription">
-        <p class="footer-title">Підпишіться на розсилку</p>
-        <form class="footer-form">
+      <div class="footer__subscription">
+        <p class="footer__title">Підпишіться на розсилку</p>
+        <form class="footer__form">
           <label>
-            <input class="footer-input" type="email" name="mail" placeholder="E-mail" /></label>
+            <input class="footer__input" type="email" name="email" placeholder="E-mail" /></label>
           <button class="btn" type="submit">
             Підписатися
             <svg class="send-icon" width="24" height="24">

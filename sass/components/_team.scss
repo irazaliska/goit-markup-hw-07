@@ -3,6 +3,7 @@
   background-color: var(--secondary-bg-color);
 
   &__list {
+    @extend %list;
     display: flex;
   }
 

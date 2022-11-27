@@ -1,10 +1,8 @@
 .features {
   @include section;
 
-  &__icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  &__icon {
+    @include flex-center;
     margin-bottom: 30px;
     width: 270px;
     height: 120px;
@@ -13,24 +11,25 @@
   }
 
   &__list {
+    @extend %list;
     display: flex;
+  }
 
-    & .features__item {
-      width: 270px;
-      line-height: 1.71;
+  &__item {
+    width: 270px;
+    line-height: 1.71;
 
-      &:not(:last-child) {
-        margin-right: 30px;
-      }
+    &:not(:last-child) {
+      margin-right: 30px;
     }
+  }
 
-    & .features__title {
-      margin-bottom: 10px;
-      color: var(--tittle-text-color);
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 1.14;
-      text-transform: uppercase;
-    }
+  &__title {
+    margin-bottom: 10px;
+    color: var(--tittle-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
   }
 }

@@ -1,8 +1,10 @@
 .contacts {
+  @extend %list;
   display: flex;
   gap: 30px;
 
   &__link {
+    @extend %link;
     display: flex;
     align-items: center;
     color: var(--primary-text-color);

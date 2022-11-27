@@ -734,7 +734,7 @@ img {
   margin-bottom: 20px;
 }
 
-.label-item {
+.modal__label {
   display: block;
   font-size: 12px;
   line-height: calc(14 / 12);
@@ -743,7 +743,7 @@ img {
   margin-bottom: 4px;
 }
 
-.field-input {
+.modal__input {
   position: relative;
   margin-bottom: 10px;
 }
