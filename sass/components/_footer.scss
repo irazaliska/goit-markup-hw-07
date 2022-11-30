@@ -3,12 +3,12 @@
   padding-bottom: 60px;
   background-color: var(--footer-color);
 
-  & .container {
+  .container {
     display: flex;
     align-items: baseline;
   }
 
-  & .logo {
+  .logo {
     display: block;
     margin-bottom: 20px;
   }
@@ -17,7 +17,7 @@
     margin-right: 70px;
   }
 
-  & .address {
+  .address {
     margin-bottom: 9px;
 
     &__link {
@@ -33,7 +33,7 @@
     }
   }
 
-  & .contacts {
+  .contacts {
     flex-direction: column;
     gap: 9px;
 
@@ -57,7 +57,7 @@
     color: var(--primary-bg-color);
   }
 
-  & .socials {
+  .socials {
     &__link {
       background-color: rgba(255, 255, 255, 0.1);
       color: var(--primary-bg-color);
@@ -80,7 +80,7 @@
     align-items: center;
     gap: 12px;
 
-    & .btn {
+    .btn {
       @include flex-center;
       padding: 10px 28px;
     }
